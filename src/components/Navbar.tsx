@@ -25,13 +25,22 @@ export default function Navbar() {
   }, []);
   return (
     <div
-      className={`w-screen h-15 bg-black border-b border-b-white ${
-        isSticky ? "bg-transparent shadow-2xl backdrop-blur-md" : null
+      className={`w-screen h-15 bg-black border-b border-b-white transition-colors duration-500 ${
+        isSticky ? "bg-black/50 shadow-2xl backdrop-blur-md" : null
       }`}
     >
       <div className="flex items-center h-15 justify-between px-4 font-[Josefin Sans] text-white font-extrabold tracking-widest ">
         <a href="#Hero">DHIKA</a>
-        <div className="">
+        <div className="hidden lg:flex">
+          <div className=" text-white flex gap-10 mr-10 items-center justify-center font-[Montserrat] font-bold text-[16px]">
+          <a href="#Hero">Home</a>
+          <a href="#AboutMe">About Me</a>
+          <a href="#Skills">Skills</a>
+          <a href="#Portfolio">Portfolio</a>
+          <a href="#Contact">Contact Me</a>
+          </div>
+        </div>
+        <div className="lg:hidden">
           <Drawer  direction="top">
             <DrawerTrigger><DialogTitle></DialogTitle>
               <div className="border border-white rounded-lg py-2.5 px-3.75 active:outline-6">

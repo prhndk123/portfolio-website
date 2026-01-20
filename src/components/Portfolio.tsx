@@ -62,7 +62,7 @@ export default function Portfolio() {
                 <div className="">
                   <Card className="bg-transparent text-black font-[Montserrat] flex">
                     <img
-                      className="size-18 relative left-2"
+                      className="size-18 relative left-2 rounded-2xl"
                       src={testimony.image}
                       alt=""
                     />

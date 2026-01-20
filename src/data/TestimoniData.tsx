@@ -13,7 +13,7 @@ export const testimonials: Testimonial[] = [
     role: "Owner UMKM Fashion",
     testimonial:
       "Aplikasi e-commerce ini sangat membantu bisnis saya. Tampilannya modern, mudah digunakan, dan alur belanjanya jelas meskipun masih berupa prototype.",
-    image: "profile1.png",
+    image: "profile.webp",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const testimonials: Testimonial[] = [
     role: "Mahasiswa Universitas Digital",
     testimonial:
       "Web food delivery ini sangat user-friendly. Saya suka bagaimana daftar restoran dan menu ditampilkan dengan rapi dan responsif di berbagai device.",
-    image: "profile2.png",
+    image: "profile.webp",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const testimonials: Testimonial[] = [
     role: "Karyawan Swasta",
     testimonial:
       "UI aplikasi ride booking ini simpel dan mudah dipahami. Estimasi harga dan pemilihan lokasi terasa realistis seperti aplikasi aslinya.",
-    image: "profile3.png",
+    image: "profile.webp",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const testimonials: Testimonial[] = [
     role: "Travel Blogger",
     testimonial:
       "Web booking travel ini memiliki desain yang bersih dan profesional. Fitur pencarian hotel dan tiket mudah digunakan meskipun masih menggunakan data dummy.",
-    image: "profile4.png",
+    image: "profile.webp",
   },
   {
     id: 5,
@@ -45,6 +45,6 @@ export const testimonials: Testimonial[] = [
     role: "Admin Toko Online",
     testimonial:
       "Marketplace web app ini sangat cocok sebagai portfolio. Struktur halaman produknya jelas dan pengalaman pengguna terasa nyaman.",
-    image: "profile5.png",
+    image: "profile.webp",
   },
 ];
