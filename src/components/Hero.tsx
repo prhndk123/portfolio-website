@@ -1,5 +1,4 @@
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
-import Contact from "./Contact";
 import { FaGithub } from "react-icons/fa";
 
 export default function Hero() {
