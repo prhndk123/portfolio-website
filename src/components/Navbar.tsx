@@ -33,11 +33,11 @@ export default function Navbar() {
         <a href="#Hero">DHIKA</a>
         <div className="hidden lg:flex">
           <div className=" text-white flex gap-10 mr-10 items-center justify-center font-[Montserrat] font-bold text-[16px]">
-          <a href="#Hero">Home</a>
-          <a href="#AboutMe">About Me</a>
-          <a href="#Skills">Skills</a>
-          <a href="#Portfolio">Portfolio</a>
-          <a href="#Contact">Contact Me</a>
+          <a className="hover:text-[18px] hover:uppercase" href="#Hero">Home</a>
+          <a className="hover:text-[18px] hover:uppercase" href="#AboutMe">About Me</a>
+          <a className="hover:text-[18px] hover:uppercase" href="#Skills">Skills</a>
+          <a className="hover:text-[18px] hover:uppercase" href="#Portfolio">Portfolio</a>
+          <a className="hover:text-[18px] hover:uppercase" href="#Contact">Contact Me</a>
           </div>
         </div>
         <div className="lg:hidden">
@@ -48,12 +48,12 @@ export default function Navbar() {
               </div>
             </DrawerTrigger>
             <DrawerContent className="bg-transparent shadow-2xl backdrop-blur-md h-[70vh]">
-              <div className="mt-1 w-auto h-15 border-b-1 border-b-white flex items-center h-15 justify-between p-4 font-[Josefin Sans] text-white font-extrabold tracking-widest">
+              <div className="mt-1 w-auto border-b border-b-white flex items-center h-15 justify-between p-4 font-[Josefin Sans] text-white font-extrabold tracking-widest">
                 <DrawerClose asChild>
                   <a href="#Hero">DHIKA</a>
                 </DrawerClose>
                 <DrawerClose asChild>
-                  <div className="border-1 border-white rounded-[4px] py-[10px] px-[15px] active:outline-6">
+                  <div className="border border-white rounded-lg py-2.5 px-3.75 active:outline-6">
                     <FaBars size={30} />
                   </div>
                 </DrawerClose>

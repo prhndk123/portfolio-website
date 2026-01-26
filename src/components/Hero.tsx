@@ -8,9 +8,9 @@ export default function Hero() {
         <img
           src="hero.svg"
           alt=""
-          className="rounded-full size-80 md:size-100 mt-[15vh] md:mt-0 md:-mr-[75vh]"
+          className="rounded-full size-80 lg:size-100 mt-[15vh] lg:mt-0 lg:-mr-[75vh]"
         />
-        <div className="absolute left-50 mb-12 w-fit h-[20vh] text-[#e5e5e5] items-start p-5 hidden md:flex flex-col">
+        <div className="absolute left-50 mb-12 w-fit h-[20vh] text-[#e5e5e5] items-start p-5 hidden lg:flex flex-col">
           <h1 className="font-[Montserrat] font-bold text-[22px]">Hi, I am</h1>
           <h1 className="font-[Montserrat] font-extrabold text-[36px]">
             Prihandika Vahryansyah
@@ -20,7 +20,7 @@ export default function Hero() {
           </h1>
           <a
             href="#Contact"
-            className="bg-green-600 px-30 py-5 mt-12 rounded-2xl"
+            className="bg-green-600 px-30 py-5 mt-12 rounded-2xl font-[Montserrat] font-bold text-[18px]"
           >
             Get In Touch
           </a>
@@ -50,7 +50,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className=" bg-[#e5e5e5] w-screen h-[20vh] text-black items-start p-5 md:hidden ">
+      <div className=" bg-[#e5e5e5] w-screen h-[20vh] text-black items-start p-5 lg:hidden ">
         <h1 className="font-[Montserrat] font-bold text-[22px]">Hi, I am</h1>
         <h1 className="font-[Montserrat] font-extrabold text-[36px]">
           Prihandika Vahryansyah
